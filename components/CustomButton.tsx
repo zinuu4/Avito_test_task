@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 
 import { CustomButtonProps } from "@/types/types";
 
@@ -11,9 +11,7 @@ const CustomButton = ({
     <button
       disabled={false}
       className={`custom-btn ${containerStyles}`}
-      onClick={() => {
-        handleClick;
-      }}
+      onClick={handleClick}
     >
       <span className={`flex-1`}>{title}</span>
     </button>

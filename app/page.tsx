@@ -1,4 +1,4 @@
-import { NewsList, UpdateNews } from "@/components";
+import { NewsList } from "@/components";
 
 import type { Metadata } from "next";
 
@@ -12,7 +12,6 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-10">
       <h1 className="font-bold text-3xl mb-10">Hacker News</h1>
       <NewsList />
-      <UpdateNews />
     </main>
   );
 }
