@@ -12,11 +12,14 @@ Contains the implementation of two pages on routes:
 ## Built With
 
 - [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app)
-- [Next 13](https://nextjs.org/blog/next-13)
-- [Axios](https://axios-http.com/docs/intro)
 - [React 18](https://reactjs.org/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Next 13](https://nextjs.org/blog/next-13)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Material UI](https://mui.com/)
+- [Axios](https://axios-http.com/docs/intro)
+- [Tailwind](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
 
 ## System Requirements
 
