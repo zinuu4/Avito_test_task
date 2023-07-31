@@ -1,34 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Test task for internship in Avito](https://github.com/avito-tech/internship_frontend_2022)
 
-## Getting Started
+### P.S. The functionality and technologies were changed a little bit because the project was done just for practice.
 
-First, run the development server:
+## About The Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Contains the implementation of two pages on routes:
+
+- `/` - the main page. It includes a list of news.
+- `/:id` - the news page. It provides information about the news and its comments.
+
+## Built With
+
+- [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app)
+- [Next 13](https://nextjs.org/blog/next-13)
+- [Axios](https://axios-http.com/docs/intro)
+- [React 18](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## System Requirements
+
+To get started with development, you need to install few tools
+
+1. git
+
+   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+
+   To check your version of git, run:
+
+   ```shell
+    git --version
+   ```
+
+2. node
+
+   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+
+   To check your version of node, run:
+
+   ```shell
+    node --version
+   ```
+
+3. npm
+
+   `npm` version 5.6.1 or higher. You will have it after you install node.
+
+   To check your version of npm, run:
+
+   ```shell
+    npm --version
+   ```
+
+## Setup
+
+To set up a development environment, please follow these steps:
+
+1. Clone the repo
+
+   ```shell
+    git clone https://github.com/zinuu4/Avito_test_task.git
+   ```
+
+2. Change directory to the project directory
+
+   ```shell
+   cd Avito_test_task
+   ```
+
+3. Install the dependencies
+
+   ```shell
+    npm install
+   ```
+
+   If you get an error, please check the console for more information.
+
+   If you don't get an error, you are ready to start development.
+
+4. Run the app
+
+   ```shell
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To build the project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```shell
+npm run build
+```
 
-## Learn More
+To run the linter
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```shell
+npm run lint
+```
